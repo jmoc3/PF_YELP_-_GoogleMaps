@@ -112,7 +112,7 @@ d) Trabajo individual.
 
 
 
-![Modelo_ER](/PF_Yelp&GoogleMaps/PF2_Henry/PF2_Modelo_ER.jpg)
+![Modelo_ER](/PF2_Modelo_ER.jpg)
 
 
 <span style="color: green; font-size: 20px; font-weight: bold;">Diccionario</span>
@@ -178,7 +178,7 @@ La tabla 'maestro-diponible' es la final, unificada y depurada donde basamos pri
 El flujo que siguen los datos es el indicado por el siguiente esquema:
 
 
-![Modelo_ER](/PF_Yelp&GoogleMaps/PF2_Henry/PF2_pipeline.jpg)
+![pipeline](/PF2_pipeline.jpg)
 
 <span style="color: green; font-size: 20px; font-weight: bold;">Automatizado - Funciones</span>
 
