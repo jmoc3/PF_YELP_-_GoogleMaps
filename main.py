@@ -39,7 +39,7 @@ rating = options[selected_option]
 # ---------------------------------------------------------------
 # eleccion de categoria
 
-df = pd.read_csv('modelo\atributos_csv\category.csv')
+df = pd.read_csv('./modelo/atributos_csv/category.csv')
 
 # Crear una lista desplegable con los valores de 'category'
 cat = st.selectbox(
@@ -54,7 +54,7 @@ category = df[df['category'] == cat]['category_int'].values[0]
 # ---------------------------------------------------------------
 # eleccion de estado
 
-df = pd.read_csv('modelo\atributos_csv\estados.csv')
+df = pd.read_csv('./modelo/atributos_csv/estados.csv')
 
 # Crear un conjunto de botones de opción con los valores de 'state'
 sta = st.sidebar.radio(
@@ -69,7 +69,7 @@ state = df[df['state'] == sta]['state_int'].values[0]
 # ---------------------------------------------------------------
 # eleccion de servicio 0
 
-df = pd.read_csv('modelo\atributos_csv\Service0.csv')
+df = pd.read_csv('./modelo/atributos_csv/Service0.csv')
 
 # Crear una lista desplegable con los valores de 'servicio'
 Ser0 = st.selectbox(
@@ -84,7 +84,7 @@ Service0 = df[df['Service0'] == Ser0]['Service0_int'].values[0]
 # ---------------------------------------------------------------
 # eleccion de servicio 1
 
-df = pd.read_csv('modelo\atributos_csv\Service1.csv')
+df = pd.read_csv('./modelo/atributos_csv/Service1.csv')
 
 # Crear una lista desplegable con los valores de 'servicio'
 Ser1 = st.selectbox(
@@ -99,7 +99,7 @@ Service1 = df[df['Service1'] == Ser1]['Service1_int'].values[0]
 # ---------------------------------------------------------------
 # eleccion de servicio 2
 
-df = pd.read_csv('modelo\atributos_csv\Service2.csv')
+df = pd.read_csv('./modelo/atributos_csv/Service2.csv')
 
 # Crear una lista desplegable con los valores de 'servicio'
 Ser2 = st.selectbox(
@@ -114,7 +114,7 @@ Service2 = df[df['Service2'] == Ser2]['Service2_int'].values[0]
 # ---------------------------------------------------------------
 # eleccion de Accecibilidad
 
-df = pd.read_csv('modelo\atributos_csv\Accessibilidad.csv')
+df = pd.read_csv('./modelo/atributos_csv/Accessibilidad.csv')
 
 # Crear una lista desplegable con los valores de 'Accecibilidad'
 Acc = st.selectbox(
@@ -130,7 +130,7 @@ Accessibility0 = df[df['Accessibility0']
 # ---------------------------------------------------------------
 # eleccion de Ofertas
 
-df = pd.read_csv('modelo\atributos_csv\Offerings0.csv')
+df = pd.read_csv('./modelo/atributos_csv/Offerings0.csv')
 
 # Crear una lista desplegable con los valores de 'Ofertas'
 Off0 = st.selectbox(
@@ -146,7 +146,7 @@ Offerings0 = df[df['Offerings0']
 # ---------------------------------------------------------------
 # eleccion de Ofertas
 
-df = pd.read_csv('modelo\atributos_csv\Offerings1.csv')
+df = pd.read_csv('./modelo/atributos_csv/Offerings1.csv')
 
 # Crear una lista desplegable con los valores de 'Ofertas'
 Off1 = st.selectbox(
@@ -162,7 +162,7 @@ Offerings1 = df[df['Offerings1']
 # ---------------------------------------------------------------
 # eleccion de Ofertas
 
-df = pd.read_csv('modelo\atributos_csv\Offerings2.csv')
+df = pd.read_csv('./modelo/atributos_csv/Offerings2.csv')
 
 # Crear una lista desplegable con los valores de 'Ofertas'
 Off2 = st.selectbox(
@@ -178,7 +178,7 @@ Offerings2 = df[df['Offerings2']
 # ---------------------------------------------------------------
 # eleccion de Amenidades
 
-df = pd.read_csv('modelo\atributos_csv\Amenities0.csv')
+df = pd.read_csv('./modelo/atributos_csv/Amenities0.csv')
 
 # Crear una lista desplegable con los valores de 'Amenidades'
 Ame = st.selectbox(
@@ -194,7 +194,7 @@ Amenities0 = df[df['Amenities0']
 # ---------------------------------------------------------------
 # eleccion de Atmosfera
 
-df = pd.read_csv('modelo\atributos_csv\Atmosphere0.csv')
+df = pd.read_csv('./modelo/atributos_csv/Atmosphere0.csv')
 
 # Crear una lista desplegable con los valores de 'Atmosferas'
 Atm = st.selectbox(
@@ -210,7 +210,7 @@ Atmosphere0 = df[df['Atmosphere0']
 # ---------------------------------------------------------------
 # eleccion de Enfoque
 
-df = pd.read_csv('modelo\atributos_csv\Crowd0.csv')
+df = pd.read_csv('./modelo/atributos_csv/Crowd0.csv')
 
 # Crear una lista desplegable con los valores de 'Enfoques'
 Cro = st.selectbox(
@@ -248,7 +248,7 @@ st.markdown('***')
 # ---------------------------------------------------------------
 st.markdown('### A continuacion te invitamos a explorar los casos de exitos de acuardo a la categoria y el estado que has escogido, puedes elegir cualquier opcion para ver sus atributos mas llamativos.')
 # eleccion de Restaurant de Referencia
-data_details = pd.read_csv('modelo\category_details.csv')
+data_details = pd.read_csv('./modelo/category_details.csv')
 data_details = data_details[(data_details['category_det'] == cat) & (
     data_details['state'] == sta)]
 
@@ -271,8 +271,8 @@ st.markdown(" El Restaurant de Referencia: " + nombre + ", esta ubicado en el Es
 category1 = cat + ' - ' + sta + ' - ' + nombre
 print(category1)
 
-data = pd.read_csv('modelo\category_features.csv')
-data_det = pd.read_csv('modelo\category_details.csv')
+data = pd.read_csv('./modelo/category_features.csv')
+data_det = pd.read_csv('./modelo/category_details.csv')
 
 # crear una matriz de características de los juegos
 tfidv = TfidfVectorizer(min_df=2, max_df=0.7,
