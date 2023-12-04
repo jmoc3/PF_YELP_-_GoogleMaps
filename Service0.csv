@@ -1,0 +1,16 @@
+Service0,Service0_int
+No,0
+Onsite services,1
+Same-day delivery,2
+Online appointments,3
+In-store pick-up,4
+In-store pickup,5
+Dine-in,6
+In-store shopping,7
+Drive-through,9
+No-contact delivery,10
+Takeaway,11
+Takeout,12
+Delivery,13
+Outdoor seating,14
+Curbside pickup,15
