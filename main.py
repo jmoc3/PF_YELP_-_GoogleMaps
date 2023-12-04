@@ -8,7 +8,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 warnings.filterwarnings("ignore")
 
-modelo = joblib.load(".\modelo\modelo_ml.pkl")
+modelo = joblib.load("./modelo/modelo_ml.pkl")
 
 class1 = 0
 
