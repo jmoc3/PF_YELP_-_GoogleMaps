@@ -2,15 +2,12 @@
 
 ## **PROYECTO GRUPAL Nº1**
 
-- - -
-
 # <h1 align="center">**`YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS`**</h1>
 
-<p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Yelp_Logo.svg/2560px-Yelp_Logo.svg.png"  height="100">
-<p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Maps_Logo_2020.svg/512px-Google_Maps_Logo_2020.svg.png"  height="100">
-
+<div align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Yelp_Logo.svg/2560px-Yelp_Logo.svg.png"  height="100">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Maps_Logo_2020.svg/512px-Google_Maps_Logo_2020.svg.png"  height="100">
+</div>
 
 ### **Fecha de realización: desde el 21-nov-23 al 08-dic-2023**
 
@@ -23,7 +20,7 @@ Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los
 
 ## Objetivos
 
-**Generales:** realizar un reporte final que desemboque en un sistema de cálculo de posibilidad de éxito respecto al emplazamiento de nuevos locales.
+**Generales:** Realizar un reporte final que desemboque en un sistema de cálculo de posibilidad de éxito respecto al emplazamiento de nuevos locales.
 
 **Específicos:**      
 1) Confeccionar un dashboard en base a los KPIs seleccionados.
