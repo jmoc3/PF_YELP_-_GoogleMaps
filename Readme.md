@@ -52,16 +52,16 @@
     <img src="https://lh3.googleusercontent.com/-kTfFzkEzgx4/WAo2rS97EUI/AAAAAAAAAQs/6pDmnPbfJLUxSHsqpaE9OrEdcPhIegGaQCMYCGAYYCw/s400/g256x256.png"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://cdn.icon-icons.com/icons2/3041/PNG/512/trello_logo_icon_189227.png"  height="80">
 </div>
+***
 
-<span style="color: green; font-size: 20px; font-weight: bold;">Alcance del proyecto</span>
+## Alcance del proyecto
+
+- Basaremos el desarrollo para la zona sur de EEUU siendo la misma la solicitada por nuestro cliente, incluyendo los condados de: California, Arizona, Nuevo Mexico, Texas, Louisiana, Oklahoma, Arkansas, Mississipi, Alabama, Georgia, Florida, Tennessee, Carolina del Sur y del Norte.
+- El rubro de interés del cliente es el de restaurantes.
+- El período de tiempo considerado es a partir del año 2016 hasta la fecha. 
 
 
-    Basaremos el desarrollo para la zona sur de EEUU siendo la misma la solicitada por nuestro cliente, incluyendo los condados de: California, Arizona, Nuevo Mexico, Texas, Louisiana, Oklahoma, Arkansas, Mississipi, Alabama, Georgia, Florida, Tennessee, Carolina del Sur y del Norte.
-    El rubro de interés del cliente es el de restaurantes.
-    El período de tiempo considerado es a partir del año 2016 hasta la fecha. 
-
-
-<span style="color: red; font-size: 20px;">EDA: remitirse al archivo 'EDA_detail.ipynb'.</span>
+**EDA: remitirse al archivo 'EDA_detail.ipynb'**
 
 <span style="color: green; font-size: 20px; font-weight: bold;">KPIs planteados</span>
 
