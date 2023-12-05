@@ -67,12 +67,12 @@ Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los
 
 ## Flujo de trabajo
 
-1. Reuniones 'pre daily' donde se habla los avances individuales.
-2. Daily con Facundo.
-3. Reuniones 'post daily' para distribuir temas individuales en base a lo completado y a lo por hacer.
-4. Trabajo individual.
+1. Reuniones ***'Pre-daily'*** donde se habla de los avances individuales.
+2. Daily con 🌟Facundo🌟.
+3. Reuniones ***'Post-daily'*** para distribuir temas individuales en base a lo completado y a las actividades faltantes.
+4. Trabajo individual donde cada quien con su propia gestion del tiempo desarrolla sus respectivos deberes.
 
-
+* * *
 ## Modelo Entidad-Relación
 
 ![Modelo_ER](/PF2_Modelo_ER.jpg)
@@ -80,7 +80,7 @@ Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los
 
 ## Diccionario de datos
 
-Tablas:
+#### Tablas:
 La tabla 'maestro-diponible' es la final, unificada y depurada donde basamos principalmente los datos mostrados y analizados por el dashboard y el modelo de ML, la cual se armó en base a la tabla dimensional 'sitios' y de la tabla de hecho 'reviews', y cuenta con las siguientes columnas:
 
 
