@@ -49,7 +49,7 @@
     <img src="https://miro.medium.com/v2/resize:fit:1358/0*RWkQ0Fziw792xa0S"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/1280px-NumPy_logo_2020.svg.png"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://uploads-ssl.webflow.com/5f538c6ee630c3802820713d/f9a91075f221be3ca31d5be_EN34oyc8fn1PfJnetkCjdlUrx03roolJKijsPQH5lqFciESiSTXrv1ZalHMmWaWPawqKrq2e6A%3Ds220-w220-h140.jpeg"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://uploads-ssl.webflow.com/5f538c6ee630c3802820713d/5f9a91075f221be3ca31d5be_EN34oyc8fn1PfJnetkCjdlUrx03roolJKijsPQH5lqFciESiSTXrv1ZalHMmWaWPawqKrq2e6A%3Ds220-w220-h140.jpeg"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://logos-world.net/wp-content/uploads/2021/02/Trello-Logo.png"  height="80">
 </div>
 
