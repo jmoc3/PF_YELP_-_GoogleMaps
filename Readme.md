@@ -7,7 +7,7 @@
 
 * * *
 
-**Proyecto Grupal de** &nbsp;&nbsp;<img src="https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png"  height="30">
+**Proyecto Grupal de** &nbsp;&nbsp;<img src="https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png"  height="30">  
 **Fecha de realización:** desde el 21-nov-23 al 08-dic-2023  
 **Integrantes:** Daniel Suarez, Francisco Delas, José Miguel Orejarena, Eduardo Bursese
 
