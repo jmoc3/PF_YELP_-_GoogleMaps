@@ -8,7 +8,7 @@
 * * *
 
 **Proyecto Grupal de** &nbsp;&nbsp;<img src="https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png"  height="30">  
-**Fecha de realización:** desde el 21-nov-23 al 08-dic-2023  
+**Fecha de realización:** desde **el 21-nov-23** al **08-dic-2023**  
 **Integrantes:** Daniel Suarez, Francisco Delas, José Miguel Orejarena, Eduardo Bursese
 
 ## Introducción
@@ -33,21 +33,21 @@ Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los
 * * *
 ## Stack de desarrollo
 <div align='center'>
-    <img src="https://static-00.iconduck.com/assets.00/google-cloud-icon-2048x1646-7admxejz.png"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://k21academy.com/wp-content/uploads/2021/02/Google-Cloud-Storage-logo-1.png"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://assets-global.website-files.com/5abc6c4b0a243a2dc939ee6e/5fdb995550a781d7c0c4ec5f_google-bigquery-logo-1.svg"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://codelabs.developers.google.com/static/codelabs/cloud-starting-cloudfunctions/img/3b93ba3023ef58a5.png"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://www.svgrepo.com/show/354012/looker-icon.svg"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://www.ancoris.com/hubfs/Google%20Cloud%20Logos/Cloud%20Composer.png"  height="80">
+    <img src="https://static-00.iconduck.com/assets.00/google-cloud-icon-2048x1646-7admxejz.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://k21academy.com/wp-content/uploads/2021/02/Google-Cloud-Storage-logo-1.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://assets-global.website-files.com/5abc6c4b0a243a2dc939ee6e/5fdb995550a781d7c0c4ec5f_google-bigquery-logo-1.svg"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://codelabs.developers.google.com/static/codelabs/cloud-starting-cloudfunctions/img/3b93ba3023ef58a5.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://www.svgrepo.com/show/354012/looker-icon.svg"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://www.ancoris.com/hubfs/Google%20Cloud%20Logos/Cloud%20Composer.png"  height="70">
 </div>
 
 <div align='center'>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pandas_mark.svg/1200px-Pandas_mark.svg.png"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/1280px-NumPy_logo_2020.svg.png"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://lh3.googleusercontent.com/-kTfFzkEzgx4/WAo2rS97EUI/AAAAAAAAAQs/6pDmnPbfJLUxSHsqpaE9OrEdcPhIegGaQCMYCGAYYCw/s400/g256x256.png"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://cdn.icon-icons.com/icons2/3041/PNG/512/trello_logo_icon_189227.png"  height="80">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pandas_mark.svg/1200px-Pandas_mark.svg.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/1280px-NumPy_logo_2020.svg.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://lh3.googleusercontent.com/-kTfFzkEzgx4/WAo2rS97EUI/AAAAAAAAAQs/6pDmnPbfJLUxSHsqpaE9OrEdcPhIegGaQCMYCGAYYCw/s400/g256x256.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://cdn.icon-icons.com/icons2/3041/PNG/512/trello_logo_icon_189227.png"  height="70">
 </div>
 
 * * *
