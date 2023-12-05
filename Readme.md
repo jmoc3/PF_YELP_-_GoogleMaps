@@ -35,13 +35,13 @@
 
 #### Stack de desarrollo
 
-<div align='center'>
-    <img src="https://1000logos.net/wp-content/uploads/2020/05/Logo-Google-Cloud.jpg"  height="50">
-    <img src="https://k21academy.com/wp-content/uploads/2021/02/Google-Cloud-Storage-logo-1.png"  height="50">
-    <img src="https://assets-global.website-files.com/5abc6c4b0a243a2dc939ee6e/5fdb995550a781d7c0c4ec5f_google-bigquery-logo-1.svg"  height="50">
-    <img src="https://codelabs.developers.google.com/static/codelabs/cloud-starting-cloudfunctions/img/3b93ba3023ef58a5.png"  height="50">
-    <img src="https://www.svgrepo.com/show/354012/looker-icon.svg"  height="50">
-    <img src="https://www.ancoris.com/hubfs/Google%20Cloud%20Logos/Cloud%20Composer.png"  height="50">
+<div align='center' >
+    <img src="https://1000logos.net/wp-content/uploads/2020/05/Logo-Google-Cloud.jpg"  height="80"><a style="opacity:0">aaaaaaa</a>
+    <img src="https://k21academy.com/wp-content/uploads/2021/02/Google-Cloud-Storage-logo-1.png"  height="80">
+    <img src="https://assets-global.website-files.com/5abc6c4b0a243a2dc939ee6e/5fdb995550a781d7c0c4ec5f_google-bigquery-logo-1.svg"  height="80">
+    <img src="https://codelabs.developers.google.com/static/codelabs/cloud-starting-cloudfunctions/img/3b93ba3023ef58a5.png"  height="80">
+    <img src="https://www.svgrepo.com/show/354012/looker-icon.svg"  height="80">
+    <img src="https://www.ancoris.com/hubfs/Google%20Cloud%20Logos/Cloud%20Composer.png"  height="80">
 </div>
 
 
