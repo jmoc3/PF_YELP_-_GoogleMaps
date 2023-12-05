@@ -16,14 +16,12 @@
 
 ### **Integrantes: Daniel Suarez, Francisco Delas, José Miguel Orejarena, Eduardo Bursese**
 
-<span style="color: green; font-size: 20px; font-weight: bold;">Introducción</span>
-
+#### Introducción
 
     Los integrantes arriba mencionados, forman parte de una consultora que brinda el servicio de asesoramiento a grupos de inversores que desean expandirse o iniciar nuevas inversiones.
     Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los negocios tales como restaurantes, hoteles y servicios entre otros, y realiza una recopilación y análisis para asesorar a un cliente externo respecto a su decisión de invertir en estos mercados. 
 
-<span style="color: green; font-size: 20px; font-weight: bold;">Objetivos</span>
-
+#### Objetivos
 
     Generales: realizar un reporte final que desemboque en un sistema de cálculo de posibilidad de éxito respecto al emplazamiento de nuevos locales.
 
@@ -31,26 +29,19 @@
                     2- Hacer uso de los servicios cloud de Google para mayor eficiencia de  los procesos internos.
                     3- Disponibilizar de manera diversa la extracción de los datos. 
 
-<span style="color: green; font-size: 20px; font-weight: bold;">Product Owner</span>
-
+#### Product Owner
 
     El Product Owner es nuestro cliente, el cual es integrante de un conglomerado de empresas de restaurantes y afines, con la idea de expansión en el mercado gastronómico.
 
-<span style="color: green; font-size: 20px; font-weight: bold;">Stack de desarrollo</span>
+#### Stack de desarrollo
 
-<div style="display: flex; justify-content: space-between;">
-    <p align="left">
-<img src="https://1000logos.net/wp-content/uploads/2020/05/Logo-Google-Cloud.jpg"  height="50">
-    <p align="left">
-<img src="https://k21academy.com/wp-content/uploads/2021/02/Google-Cloud-Storage-logo-1.png"  height="50">
-    <p align="left">
-<img src="https://assets-global.website-files.com/5abc6c4b0a243a2dc939ee6e/5fdb995550a781d7c0c4ec5f_google-bigquery-logo-1.svg"  height="50">
-    <p align="left">
-<img src="https://codelabs.developers.google.com/static/codelabs/cloud-starting-cloudfunctions/img/3b93ba3023ef58a5.png"  height="50">
-    <p align="left">
-<img src="https://www.svgrepo.com/show/354012/looker-icon.svg"  height="50">
-    <p align="left">
-<img src="https://www.ancoris.com/hubfs/Google%20Cloud%20Logos/Cloud%20Composer.png"  height="50">
+<div align='center'>
+    <img src="https://1000logos.net/wp-content/uploads/2020/05/Logo-Google-Cloud.jpg"  height="50">
+    <img src="https://k21academy.com/wp-content/uploads/2021/02/Google-Cloud-Storage-logo-1.png"  height="50">
+    <img src="https://assets-global.website-files.com/5abc6c4b0a243a2dc939ee6e/5fdb995550a781d7c0c4ec5f_google-bigquery-logo-1.svg"  height="50">
+    <img src="https://codelabs.developers.google.com/static/codelabs/cloud-starting-cloudfunctions/img/3b93ba3023ef58a5.png"  height="50">
+    <img src="https://www.svgrepo.com/show/354012/looker-icon.svg"  height="50">
+    <img src="https://www.ancoris.com/hubfs/Google%20Cloud%20Logos/Cloud%20Composer.png"  height="50">
 </div>
 
 
