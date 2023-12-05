@@ -35,7 +35,7 @@
 
 #### Stack de desarrollo
 
-<div align='center' >
+<div align='center' display="flex" justify-content="space-between">
     <img src="https://1000logos.net/wp-content/uploads/2020/05/Logo-Google-Cloud.jpg"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://k21academy.com/wp-content/uploads/2021/02/Google-Cloud-Storage-logo-1.png"  height="80">
     <img src="https://assets-global.website-files.com/5abc6c4b0a243a2dc939ee6e/5fdb995550a781d7c0c4ec5f_google-bigquery-logo-1.svg"  height="80">
