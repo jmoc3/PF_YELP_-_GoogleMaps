@@ -26,9 +26,9 @@ Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los
 **Generales:** realizar un reporte final que desemboque en un sistema de cálculo de posibilidad de éxito respecto al emplazamiento de nuevos locales.
 
 **Específicos:**    
-        1. Confeccionar un dashboard en base a los KPIs seleccionados.  
-        2. Hacer uso de los servicios cloud de Google para mayor eficiencia de  los procesos internos.  
-        3. Disponibilizar de manera diversa la extracción de los datos.
+    - Confeccionar un dashboard en base a los KPIs seleccionados.  
+    - Hacer uso de los servicios cloud de Google para mayor eficiencia de  los procesos internos.  
+    - Disponibilizar de manera diversa la extracción de los datos.
 
 ## Product Owner
 
