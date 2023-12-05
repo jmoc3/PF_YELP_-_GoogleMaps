@@ -21,6 +21,7 @@
 Los integrantes arriba mencionados, forman parte de una consultora que brinda el servicio de asesoramiento a grupos de inversores que desean expandirse o iniciar nuevas inversiones.
 Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los negocios tales como restaurantes, hoteles y servicios entre otros, y realiza una recopilación y análisis para asesorar a un cliente externo respecto a su decisión de invertir en estos mercados. 
 
+* * *
 ## Objetivos
 
 **Generales:** realizar un reporte final que desemboque en un sistema de cálculo de posibilidad de éxito respecto al emplazamiento de nuevos locales.
@@ -30,10 +31,12 @@ Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los
     2) Hacer uso de los servicios cloud de Google para mayor eficiencia de  los procesos internos.
     3)Disponibilizar de manera diversa la extracción de los datos. 
 
+* * *
 ## Product Owner
 
 - El Product Owner es nuestro cliente, el cual es integrante de un conglomerado de empresas de restaurantes y afines, con la idea de expansión en el mercado gastronómico.
 
+* * *
 ## Stack de desarrollo
 <div align='center'>
     <img src="https://static-00.iconduck.com/assets.00/google-cloud-icon-2048x1646-7admxejz.png"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
@@ -60,6 +63,7 @@ Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los
 - El rubro de interés del cliente es el de restaurantes.
 - El período de tiempo considerado es a partir del año 2016 hasta la fecha. 
 
+* * *
 **EDA:** remitirse al archivo 'EDA_detail.ipynb'
 
 <span style="color: green; font-size: 20px; font-weight: bold;">KPIs planteados</span>
