@@ -110,14 +110,14 @@ El flujo que siguen los datos es el indicado por el siguiente esquema:
 
 ## Carga Incremental Automatizada - Funciones
 
-- El file `'ETL_PFH_Carga_de_archivos_a_Storage.ipynb'` realiza la carga autómatica incremental ante el ingreso de un nuevo dataset. En caso de existir la tabla debido a una carga previa 
+- El archivo `'ETL_PFH_Carga_de_archivos_a_Storage.ipynb'` realiza la carga autómatica incremental ante el ingreso de un nuevo dataset. En caso de existir la tabla debido a una carga previa 
 tan solo concatena los nuevos datos, y en caso de no existir la tabla la crea.
 
 - Los siguientes códigos completan las operaciones de ETL y EDA respectivamente:
-    - EDA_y_ML_PFH_1_1_modelos_de_arbol_y_random forest.ipynb
-    - ETL_PFH_metadata-sitios_Google.ipynb
-    - ETL_PFH_reviews-estados_Google_validacion.ipynb
-    - ETL_PFH_unificado_maestro-disponible.ipynb
+    - `EDA_y_ML_PFH_1_1_modelos_de_arbol_y_random forest.ipynb`
+    - `ETL_PFH_metadata-sitios_Google.ipynb`
+    - `ETL_PFH_reviews-estados_Google_validacion.ipynb`
+    - `ETL_PFH_unificado_maestro-disponible.ipynb`
 
 
 
