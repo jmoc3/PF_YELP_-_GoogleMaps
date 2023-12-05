@@ -9,9 +9,9 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Maps_Logo_2020.svg/512px-Google_Maps_Logo_2020.svg.png"  height="100">
 </div>
 
-### **Fecha de realización: desde el 21-nov-23 al 08-dic-2023**
+#### **Fecha de realización:** desde el 21-nov-23 al 08-dic-2023
 
-### **Integrantes: Daniel Suarez, Francisco Delas, José Miguel Orejarena, Eduardo Bursese**
+#### **Integrantes:** Daniel Suarez, Francisco Delas, José Miguel Orejarena, Eduardo Bursese
 
 ## Introducción
 
