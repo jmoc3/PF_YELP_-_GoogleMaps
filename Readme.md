@@ -4,7 +4,7 @@
 
 - - -
 
-## <h1 align="center">**`YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS`**</h1>
+# <h1 align="center">**`YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS`**</h1>
 
 <p align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Yelp_Logo.svg/2560px-Yelp_Logo.svg.png"  height="100">
@@ -16,12 +16,12 @@
 
 ### **Integrantes: Daniel Suarez, Francisco Delas, José Miguel Orejarena, Eduardo Bursese**
 
-#### Introducción
+## Introducción
 
     Los integrantes arriba mencionados, forman parte de una consultora que brinda el servicio de asesoramiento a grupos de inversores que desean expandirse o iniciar nuevas inversiones.
     Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los negocios tales como restaurantes, hoteles y servicios entre otros, y realiza una recopilación y análisis para asesorar a un cliente externo respecto a su decisión de invertir en estos mercados. 
 
-#### Objetivos
+## Objetivos
 
     Generales: realizar un reporte final que desemboque en un sistema de cálculo de posibilidad de éxito respecto al emplazamiento de nuevos locales.
 
@@ -29,14 +29,14 @@
                     2- Hacer uso de los servicios cloud de Google para mayor eficiencia de  los procesos internos.
                     3- Disponibilizar de manera diversa la extracción de los datos. 
 
-#### Product Owner
+## Product Owner
 
     El Product Owner es nuestro cliente, el cual es integrante de un conglomerado de empresas de restaurantes y afines, con la idea de expansión en el mercado gastronómico.
 
-#### Stack de desarrollo
+## Stack de desarrollo
 
 <div align='center'>
-    <img src="https://1000logos.net/wp-content/uploads/2020/05/Logo-Google-Cloud.jpg"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://static-00.iconduck.com/assets.00/google-cloud-icon-2048x1646-7admxejz.png"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://k21academy.com/wp-content/uploads/2021/02/Google-Cloud-Storage-logo-1.png"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://assets-global.website-files.com/5abc6c4b0a243a2dc939ee6e/5fdb995550a781d7c0c4ec5f_google-bigquery-logo-1.svg"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://codelabs.developers.google.com/static/codelabs/cloud-starting-cloudfunctions/img/3b93ba3023ef58a5.png"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
