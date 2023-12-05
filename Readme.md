@@ -108,9 +108,9 @@ El flujo que siguen los datos es el indicado por el siguiente esquema:
 
 ![pipeline](/PF2_pipeline.jpg)
 
-## Automatizado - Funciones
+## Carga Incremental Automatizada - Funciones
 
-- El file 'ETL_PFH_Carga_de_archivos_a_Storage.ipynb' realiza la carga autómatica incremental ante el ingreso de un nuevo dataset. En caso de existir la tabla debido a una carga previa 
+- El file `'ETL_PFH_Carga_de_archivos_a_Storage.ipynb'` realiza la carga autómatica incremental ante el ingreso de un nuevo dataset. En caso de existir la tabla debido a una carga previa 
 tan solo concatena los nuevos datos, y en caso de no existir la tabla la crea.
 
 - Los siguientes códigos completan las operaciones de ETL y EDA respectivamente:
