@@ -52,8 +52,8 @@ Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los
     <img src="https://lh3.googleusercontent.com/-kTfFzkEzgx4/WAo2rS97EUI/AAAAAAAAAQs/6pDmnPbfJLUxSHsqpaE9OrEdcPhIegGaQCMYCGAYYCw/s400/g256x256.png"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://cdn.icon-icons.com/icons2/3041/PNG/512/trello_logo_icon_189227.png"  height="80">
 </div>
-____
 
+* * *
 ## Alcance del proyecto
 
 - Basaremos el desarrollo para la ***zona sur*** de **EEUU** siendo la misma la solicitada por nuestro cliente, incluyendo los condados de: California, Arizona, Nuevo Mexico, Texas, Louisiana, Oklahoma, Arkansas, Mississipi, Alabama, Georgia, Florida, Tennessee, Carolina del Sur y del Norte.
