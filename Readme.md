@@ -18,20 +18,21 @@
 
 ## Introducción
 
-    Los integrantes arriba mencionados, forman parte de una consultora que brinda el servicio de asesoramiento a grupos de inversores que desean expandirse o iniciar nuevas inversiones.
-    Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los negocios tales como restaurantes, hoteles y servicios entre otros, y realiza una recopilación y análisis para asesorar a un cliente externo respecto a su decisión de invertir en estos mercados. 
+Los integrantes arriba mencionados, forman parte de una consultora que brinda el servicio de asesoramiento a grupos de inversores que desean expandirse o iniciar nuevas inversiones.
+Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los negocios tales como restaurantes, hoteles y servicios entre otros, y realiza una recopilación y análisis para asesorar a un cliente externo respecto a su decisión de invertir en estos mercados. 
 
 ## Objetivos
 
-    Generales: realizar un reporte final que desemboque en un sistema de cálculo de posibilidad de éxito respecto al emplazamiento de nuevos locales.
+**Generales:** realizar un reporte final que desemboque en un sistema de cálculo de posibilidad de éxito respecto al emplazamiento de nuevos locales.
 
-    Específicos:    1- Confeccionar un dashboard en base a los KPIs seleccionados.
-                    2- Hacer uso de los servicios cloud de Google para mayor eficiencia de  los procesos internos.
-                    3- Disponibilizar de manera diversa la extracción de los datos. 
+**Específicos:**    
+    1) Confeccionar un dashboard en base a los KPIs seleccionados.
+    2) Hacer uso de los servicios cloud de Google para mayor eficiencia de  los procesos internos.
+    3)Disponibilizar de manera diversa la extracción de los datos. 
 
 ## Product Owner
 
-    El Product Owner es nuestro cliente, el cual es integrante de un conglomerado de empresas de restaurantes y afines, con la idea de expansión en el mercado gastronómico.
+- El Product Owner es nuestro cliente, el cual es integrante de un conglomerado de empresas de restaurantes y afines, con la idea de expansión en el mercado gastronómico.
 
 ## Stack de desarrollo
 ***
@@ -52,17 +53,16 @@
     <img src="https://lh3.googleusercontent.com/-kTfFzkEzgx4/WAo2rS97EUI/AAAAAAAAAQs/6pDmnPbfJLUxSHsqpaE9OrEdcPhIegGaQCMYCGAYYCw/s400/g256x256.png"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://cdn.icon-icons.com/icons2/3041/PNG/512/trello_logo_icon_189227.png"  height="80">
 </div>
-***
 
 ## Alcance del proyecto
 
-- Basaremos el desarrollo para la zona sur de EEUU siendo la misma la solicitada por nuestro cliente, incluyendo los condados de: California, Arizona, Nuevo Mexico, Texas, Louisiana, Oklahoma, Arkansas, Mississipi, Alabama, Georgia, Florida, Tennessee, Carolina del Sur y del Norte.
+- Basaremos el desarrollo para la ***zona sur*** de **EEUU** siendo la misma la solicitada por nuestro cliente, incluyendo los condados de: California, Arizona, Nuevo Mexico, Texas, Louisiana, Oklahoma, Arkansas, Mississipi, Alabama, Georgia, Florida, Tennessee, Carolina del Sur y del Norte.
 - El rubro de interés del cliente es el de restaurantes.
 - El período de tiempo considerado es a partir del año 2016 hasta la fecha. 
 
-
-**EDA: remitirse al archivo 'EDA_detail.ipynb'**
-
+-----------------------------------------------------------------
+**EDA:** remitirse al archivo 'EDA_detail.ipynb'
+------------------------------------------------------------------
 <span style="color: green; font-size: 20px; font-weight: bold;">KPIs planteados</span>
 
 <span style="color: orange; font-size: 15px;">1-Índice de Satisfacción del Cliente (CSI - Customer Satisfaction Index):</span>
