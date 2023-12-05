@@ -33,7 +33,7 @@ Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los
 ## Product Owner
 
 - El Product Owner es nuestro cliente, el cual es integrante de un conglomerado de empresas de restaurantes y afines, con la idea de expansión en el mercado gastronómico.
-</hr>
+
 ## Stack de desarrollo
 <div align='center'>
     <img src="https://static-00.iconduck.com/assets.00/google-cloud-icon-2048x1646-7admxejz.png"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
@@ -52,7 +52,7 @@ Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los
     <img src="https://lh3.googleusercontent.com/-kTfFzkEzgx4/WAo2rS97EUI/AAAAAAAAAQs/6pDmnPbfJLUxSHsqpaE9OrEdcPhIegGaQCMYCGAYYCw/s400/g256x256.png"  height="80">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://cdn.icon-icons.com/icons2/3041/PNG/512/trello_logo_icon_189227.png"  height="80">
 </div>
-</hr>
+----
 
 ## Alcance del proyecto
 
@@ -60,7 +60,7 @@ Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los
 - El rubro de interés del cliente es el de restaurantes.
 - El período de tiempo considerado es a partir del año 2016 hasta la fecha. 
 
------------------------------------------------------------------
+----
 **EDA:** remitirse al archivo 'EDA_detail.ipynb'
 
 <span style="color: green; font-size: 20px; font-weight: bold;">KPIs planteados</span>
