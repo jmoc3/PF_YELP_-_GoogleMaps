@@ -1,5 +1,3 @@
-![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
-
 ## **PROYECTO GRUPAL Nº1**
 
 # <h1 align="center">**`YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS`**</h1>
@@ -7,6 +5,7 @@
 <div align="center">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Yelp_Logo.svg/2560px-Yelp_Logo.svg.png"  height="100">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Maps_Logo_2020.svg/512px-Google_Maps_Logo_2020.svg.png"  height="100">
+    <img src="https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png"  height="30">
 </div>
 
 * * *
