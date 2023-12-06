@@ -39,15 +39,16 @@ Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los
     <img src="https://codelabs.developers.google.com/static/codelabs/cloud-starting-cloudfunctions/img/3b93ba3023ef58a5.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://www.svgrepo.com/show/354012/looker-icon.svg"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://www.ancoris.com/hubfs/Google%20Cloud%20Logos/Cloud%20Composer.png"  height="70">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pandas_mark.svg/1200px-Pandas_mark.svg.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 
 <div align='center'>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pandas_mark.svg/1200px-Pandas_mark.svg.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/1280px-NumPy_logo_2020.svg.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://lh3.googleusercontent.com/-kTfFzkEzgx4/WAo2rS97EUI/AAAAAAAAAQs/6pDmnPbfJLUxSHsqpaE9OrEdcPhIegGaQCMYCGAYYCw/s400/g256x256.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://cdn.icon-icons.com/icons2/3041/PNG/512/trello_logo_icon_189227.png"  height="70">
+    <img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 
 * * *
@@ -80,7 +81,7 @@ Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los
 ## Diccionario de datos
 
 #### Tablas:
-La tabla 'maestro-diponible' es la final, unificada y depurada donde basamos principalmente los datos mostrados y analizados por el dashboard y el modelo de ML, la cual se armó en base a la tabla dimensional 'sitios' y de la tabla de hecho 'reviews', y cuenta con las siguientes columnas:
+La tabla ***'maestro-diponible'*** es la final, unificada y depurada donde basamos principalmente los datos mostrados y analizados por el dashboard y el modelo de ML, la cual se armó en base a la tabla dimensional 'sitios' y de la tabla de hecho 'reviews', y cuenta con las siguientes columnas:
 
 
 - **state:** contiene el estado donde se encuentra el restaurant, ejemplo 'Georgia'.
@@ -109,10 +110,9 @@ El flujo que siguen los datos es el indicado por el siguiente esquema:
 
 ## Carga Incremental Automatizada - Funciones
 
-- El archivo `'ETL_PFH_Carga_de_archivos_a_Storage.ipynb'` realiza la carga autómatica incremental ante el ingreso de un nuevo dataset. En caso de existir la tabla debido a una carga previa 
-tan solo concatena los nuevos datos, y en caso de no existir la tabla la crea.
+- El archivo `'ETL_PFH_Carga_de_archivos_a_Storage.ipynb'` es el codigo vivo implementado posterior a una funcion dentro de cloud para la carga autómatica incremental ante el ingreso de un nuevo dataset dentro de un bucket especifico en GCP Storage. En caso de existir la tabla debido a una carga previa tan solo concatena los nuevos datos, y en caso de no existir la tabla la crea.
 
-- Los siguientes códigos completan las operaciones de ETL y EDA respectivamente:
+- Los siguientes códigos completan las operaciones de ETL y EDA respectivamente para unos datos limpios y coherentes:
     - `EDA_y_ML_PFH_1_1_modelos_de_arbol_y_random forest.ipynb`
     - `ETL_PFH_metadata-sitios_Google.ipynb`
     - `ETL_PFH_reviews-estados_Google_validacion.ipynb`
