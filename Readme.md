@@ -38,12 +38,12 @@ Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los
     <img src="https://assets-global.website-files.com/5abc6c4b0a243a2dc939ee6e/5fdb995550a781d7c0c4ec5f_google-bigquery-logo-1.svg"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://codelabs.developers.google.com/static/codelabs/cloud-starting-cloudfunctions/img/3b93ba3023ef58a5.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://www.svgrepo.com/show/354012/looker-icon.svg"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://www.ancoris.com/hubfs/Google%20Cloud%20Logos/Cloud%20Composer.png"  height="70">
+    <img src="https://www.ancoris.com/hubfs/Google%20Cloud%20Logos/Cloud%20Composer.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pandas_mark.svg/1200px-Pandas_mark.svg.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 
 <div align='center'>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pandas_mark.svg/1200px-Pandas_mark.svg.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/1280px-NumPy_logo_2020.svg.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://lh3.googleusercontent.com/-kTfFzkEzgx4/WAo2rS97EUI/AAAAAAAAAQs/6pDmnPbfJLUxSHsqpaE9OrEdcPhIegGaQCMYCGAYYCw/s400/g256x256.png"  height="70">&nbsp;&nbsp;&nbsp;&nbsp;
