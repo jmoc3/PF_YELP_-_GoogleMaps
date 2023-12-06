@@ -75,8 +75,7 @@ Este proyecto, recoge los datos existentes en Google Maps y Yelp respecto de los
 * * *
 ## Modelo Entidad-Relación
 
-![Modelo_ER](/PF2_Modelo_ER.jpg)
-
+![Modelo_ER](./img//PF2_Modelo_ER.jpg)
 
 ## Diccionario de datos
 
@@ -106,7 +105,7 @@ La tabla 'maestro-diponible' es la final, unificada y depurada donde basamos pri
 
 El flujo que siguen los datos es el indicado por el siguiente esquema:
 
-![pipeline](/PF2_pipeline.jpg)
+![pipeline](./img/PF2_pipeline.png)
 
 ## Carga Incremental Automatizada - Funciones
 
@@ -118,18 +117,3 @@ tan solo concatena los nuevos datos, y en caso de no existir la tabla la crea.
     - `ETL_PFH_metadata-sitios_Google.ipynb`
     - `ETL_PFH_reviews-estados_Google_validacion.ipynb`
     - `ETL_PFH_unificado_maestro-disponible.ipynb`
-
-
-
-
-<span style="color: red; font-size: 15px; font-style: italic;">
-
-
-
-
-
-<span style="color: red; font-size: 15px; font-style: italic;">(Para Spring #3)</span>
-
-Entregables.
-
-Reporte final.</span>
