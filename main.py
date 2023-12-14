@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 import joblib
 import warnings
+import matplotlib.pyplot as plt
 
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -30,7 +31,6 @@ category = df[df['category'] == cat]['category_int'].values[0]
 
 # st.write(category)
 # ---------------------------------------------------------------
-
 st.sidebar.markdown('## Cuántas Estrellas? Dónde? ')
 
 # eleccion de estrellas
@@ -68,8 +68,67 @@ state = df[df['state'] == sta]['state_int'].values[0]
 
 # st.write(state)
 # ---------------------------------------------------------------
-st.write('## Restaurante de Categoría', cat, 'en el Estado de', sta)
+# data de estados
+df_states = pd.read_csv('./modelo/atributos_csv/data_states.csv')
+
+try:
+    num_rest = df_states[(df_states['category'] == cat) & (
+        df_states['state'] == sta)].groupby('state').size().values[0]
+except:
+    num_rest = 0
+# ---------------------------------------------------------------
+# ---------------------------------------------------------------
+st.write('## Para Restaurante de Categoría', cat, 'en el Estado de', sta)
+st.write('## Existen:', num_rest, 'locales')
 st.markdown('***')
+# ---------------------------------------------------------------
+# Gráficos
+
+col11, col21 = st.columns(2)
+with col11:
+    # grafico de cantidad de restaurantes de categoria por estado
+    cant_por_estado = df_states[df_states['category'] == cat][[
+        'state']].groupby('state').size().sort_values(ascending=False)
+
+    plt.figure()
+    color = 'white'
+    plt.bar(cant_por_estado.index, cant_por_estado.values)
+    plt.xlabel('Estado', color=color)
+    plt.ylabel('Número de restaurantes', color=color)
+    plt.title('Número de restaurantes por estado', color=color)
+    plt.tick_params(colors=color)
+    plt.xticks(rotation=90, color=color)
+    st.pyplot(plt, transparent=True)
+
+with col21:
+    # grafico de clases
+    class_por_estado = df_states[(df_states['state'] == sta) & (df_states['category'] == cat)][[
+        'class']].groupby('class').size().sort_values(ascending=False)
+    plt.figure()
+    color = 'white'
+    labels = [f'{index} ({value})' for index, value in zip(
+        class_por_estado.index, class_por_estado.values)]
+    plt.pie(class_por_estado.values, labels=labels,
+            autopct='%1.1f%%', textprops={'fontsize': 10, 'color': 'white'})
+    plt.title('% Clases de Restaurantes para Estado y Categoría',
+              fontsize=(10), color=color)
+    st.pyplot(plt, transparent=True)
+
+# grafico de restaurantes por categoria
+cate_por_estado = df_states[df_states['state'] == sta][['category']].groupby(
+    'category').size().sort_values(ascending=False).head(20)
+
+plt.figure(figsize=(10, 4))
+color = 'white'
+plt.bar(cate_por_estado.index, cate_por_estado.values)
+plt.xlabel('Categoría', color=color)
+plt.ylabel('Número de restaurantes', color=color)
+plt.title('Número de restaurantes por categoría', color=color)
+plt.tick_params(colors=color)
+plt.xticks(rotation=90)
+st.pyplot(plt, transparent=True)
+
+
 # ---------------------------------------------------------------
 st.markdown('### Selección de Servicios:')
 # eleccion de servicio 0
@@ -300,70 +359,70 @@ data_details = pd.read_csv('./modelo/category_details.csv')
 data_details = data_details[(data_details['category_det'] == cat) & (
     data_details['state'] == sta)]
 
-try:
-    nombre = st.selectbox(
-        'Selecciona un Restaurante de Referencia',
-        data_details['name_y'])
-    st.write('Has seleccionado:', nombre)
+nombre = st.selectbox(
+    'Selecciona un Restaurante de Referencia',
+    data_details['name_y'])
+st.write('Has seleccionado:', nombre)
 
-    if not data_details[data_details['name_y'] == nombre].empty:
-        caracteristicas = data_details.loc[data_details['name_y']
-                                           == nombre, 'features'].values[0]
-    else:
-        st.write('Para el estado de ' + sta +
-                 ' no existen lugares de categoria ' + cat + ', que sean de "Clase Premium", lo sentimos.')
-        caracteristicas = None
-except Exception:
-    st.write('Ha ocurrido un error al obtener las características.')
-
-caracteristicas = data_details.loc[data_details['name_y']
-                                   == nombre, 'features'].values[0]
-
-st.markdown(" El Restaurant de Referencia: " + nombre + ", esta ubicado en el Estado de " + sta +
-            " y es de la categoría de " + cat + " el mismo es de clase Premiun y cuenta con las siguientes caracteristicas: " + caracteristicas)
-
-# ---------------------------------------------------------------
-# sistema de recomendacion por similitud de coseno
-category1 = cat + ' - ' + sta + ' - ' + nombre
-
-# se carga los datasets que se va a utilizar para dos dataframes distintos
-
-# Recupere todos los datos de la tabla en un DataFrame de pandas
-data = pd.read_csv('./modelo/category_features.csv')
-
-# Recupere todos los datos de la tabla en un DataFrame de pandas
-data_det = pd.read_csv('./modelo/category_details.csv')
-
-# crear una matriz de características de los juegos
-tfidv = TfidfVectorizer(min_df=2, max_df=0.7,
-                        token_pattern=r'\b[a-zA-Z0-9]\w+\b')
-data_vector = tfidv.fit_transform(data['features'])
-
-data_vector_df = pd.DataFrame(data_vector.toarray(
-), index=data['category'], columns=tfidv.get_feature_names_out())
-
-# calcular la similitud coseno entre los juegos en la matriz de características
-vector_similitud_coseno = cosine_similarity(data_vector_df.values)
-
-cos_sim_df = pd.DataFrame(vector_similitud_coseno,
-                          index=data_vector_df.index, columns=data_vector_df.index)
-
-rest_simil = cos_sim_df.loc[category1]
-simil_ordenada = rest_simil.sort_values(ascending=False)
-resultado = simil_ordenada.head(6).reset_index()
-
-if not resultado.empty:
-    result_df = resultado.merge(data_det, on='category', how='left')
-    result_df = result_df[['name_y', 'category_det', 'state', 'features']][1:6]
-
-    try:
-        st.markdown(
-            " A demas, sugerimos que se observen con atencion los casos de exitos garantizados similares a las caracteristicas que has escogido: ")
-        st.dataframe(result_df)
-
-    except Exception as e:
-        st.write('Lo siento, este para el estado de' + sta +
-                 'no existe restaurante de categoria ' + cat, str(e))
-
+if not data_details[data_details['name_y'] == nombre].empty:
+    caracteristicas = data_details.loc[data_details['name_y']
+                                       == nombre, 'features'].values[0]
 else:
-    st.write('No se encontraron resultados.')
+    st.write('Para el estado de ' + sta +
+             ' no existen lugares de categoria ' + cat + ', que sean de "Clase Premium", lo sentimos.')
+    caracteristicas = None
+
+
+try:
+    caracteristicas = data_details.loc[data_details['name_y']
+                                       == nombre, 'features'].values[0]
+
+    st.markdown(" El Restaurant de Referencia: " + nombre + ", esta ubicado en el Estado de " + sta +
+                " y es de la categoría de " + cat + " el mismo es de clase Premiun y cuenta con las siguientes caracteristicas: " + caracteristicas)
+
+    # sistema de recomendacion por similitud de coseno
+    category1 = cat + ' - ' + sta + ' - ' + nombre
+
+    # se carga los datasets que se va a utilizar para dos dataframes distintos
+
+    # Recupere todos los datos de la tabla en un DataFrame de pandas
+    data = pd.read_csv('./modelo/category_features.csv')
+
+    # Recupere todos los datos de la tabla en un DataFrame de pandas
+    data_det = pd.read_csv('./modelo/category_details.csv')
+
+    # crear una matriz de características de los juegos
+    tfidv = TfidfVectorizer(min_df=2, max_df=0.7,
+                            token_pattern=r'\b[a-zA-Z0-9]\w+\b')
+    data_vector = tfidv.fit_transform(data['features'])
+
+    data_vector_df = pd.DataFrame(data_vector.toarray(
+    ), index=data['category'], columns=tfidv.get_feature_names_out())
+
+    # calcular la similitud coseno entre los juegos en la matriz de características
+    vector_similitud_coseno = cosine_similarity(data_vector_df.values)
+
+    cos_sim_df = pd.DataFrame(vector_similitud_coseno,
+                              index=data_vector_df.index, columns=data_vector_df.index)
+
+    rest_simil = cos_sim_df.loc[category1]
+    simil_ordenada = rest_simil.sort_values(ascending=False)
+    resultado = simil_ordenada.head(6).reset_index()
+
+    if not resultado.empty:
+        result_df = resultado.merge(data_det, on='category', how='left')
+        result_df = result_df[[
+            'name_y', 'category_det', 'state', 'features']][1:6]
+
+        try:
+            st.markdown(
+                " A demas, sugerimos que se observen con atencion los casos de exitos garantizados similares a las caracteristicas que has escogido: ")
+            st.dataframe(result_df)
+
+        except Exception as e:
+            st.write('Lo siento, este para el estado de' + sta +
+                     'no existe restaurante de categoria ' + cat, str(e))
+
+except:
+    st.write('No existen Restaurantes con características similares.')
+# ---------------------------------------------------------------
